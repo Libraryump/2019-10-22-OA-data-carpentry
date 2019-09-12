@@ -695,7 +695,7 @@ please preview your site before committing, and make sure to run
         </p>
       </article>
     </div>
-  </div>
+ 
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
 <!--
@@ -859,4 +859,5 @@ please preview your site before committing, and make sure to run
     </li>
   </ol>
 </div>
-{% endcomment %}-->
+{% endcomment %}
+-->
