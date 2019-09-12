@@ -82,7 +82,8 @@ the pitch.
 {% comment %}
 AUDIENCE
 
-The workshop is open to all researchers, staff and postgraduate students.  (In particular, tell readers if the
+The workshop is open to all researchers, staff and postgraduate students. Please register to secure your space as space is limited. 
+(In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
 {% if page.carpentry == "swc" %}
@@ -310,14 +311,15 @@ please preview your site before committing, and make sure to run
   
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
+<!--
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly.
   </p>
-
+-->
+<!--
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#shell-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
@@ -412,7 +414,8 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
-
+-->
+<!--
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatibility
   is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
@@ -539,8 +542,8 @@ please preview your site before committing, and make sure to run
       </article>
     </div>
   </div>
-</div> {% comment %} End of 'editor' section. {% endcomment %}
-
+</div> {% comment %} End of 'editor' section. {% endcomment %} --> 
+<!--
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
   the workshop will teach Python using something other than
   the Jupyter notebook.
@@ -637,7 +640,7 @@ please preview your site before committing, and make sure to run
     which has instructions on how to test that everything was installed correctly.
   </p>
   {% endcomment %}
-</div> {% comment %} End of 'Python' section. {% endcomment %}
+</div> {% comment %} End of 'Python' section. {% endcomment %}-->
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
@@ -770,7 +773,7 @@ please preview your site before committing, and make sure to run
     </div>
       {%endif%}
   </div>
-
+<!--
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
       <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
       Instructors will provide a workaround for it if needed.</strong></p>
@@ -829,6 +832,7 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
 
 {% comment %}
+<!--
 <div id="vm">
   <h3>Virtual Machine</h3>
 
@@ -852,4 +856,4 @@ please preview your site before committing, and make sure to run
     </li>
   </ol>
 </div>
-{% endcomment %}
+{% endcomment %}-->
