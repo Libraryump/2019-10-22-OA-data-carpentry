@@ -235,7 +235,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 Collaborative Notes
 
 If you want to use an Etherpad, go to
-
+https://pad.carpentries.org/2019-10-22-OA-UMP
 
 
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
@@ -243,7 +243,7 @@ e.g., '2015-06-10-esu'.
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="https://pad.carpentries.org/2019-10-22-OA-UMP"> collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href={{page.collaborative_notes}}> collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
 
