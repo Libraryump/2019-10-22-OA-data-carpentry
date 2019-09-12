@@ -707,7 +707,7 @@ please preview your site before committing, and make sure to run
     use a simple database manager called
     <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
   </p>
-
+<!--
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#sql-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
