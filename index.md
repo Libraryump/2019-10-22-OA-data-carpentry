@@ -773,7 +773,7 @@ please preview your site before committing, and make sure to run
       </article>
     </div>
       {%endif%}
-      -->
+ -->
   </div>
 <!--
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
