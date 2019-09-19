@@ -193,7 +193,8 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 <p><strong>REGISTRATION</strong>:
-  Please complete the registration form available at <a href="https://docs.google.com/forms/d/e/1FAIpQLSf59LvZbExcihJJpgfEUB6p-8_COQ85bpyPpSTZY7qJIfKyrw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSf59LvZbExcihJJpgfEUB6p-8_COQ85bpyPpSTZY7qJIfKyrw/viewform</a>. Only 30 spaces are available.
+  Please complete the registration form available at <a href="https://forms.gle/GxyYQv7KB1qXVi817">https://forms.gle/GxyYQv7KB1qXVi817</a>. Only 30 spaces are available.
+  </p>
 <hr/>
 
 {% comment %} 
